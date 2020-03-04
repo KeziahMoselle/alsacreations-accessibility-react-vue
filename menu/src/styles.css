@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+header {
+  padding: 32px;
+  background-color: black;
+  color: white;
+}
+
+nav[aria-hidden='true'] {
+  display: none;
+}
+
+nav {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+}
+
+nav a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+button {
+  font-size: 3em;
+  width: 70px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  background-color: transparent;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
